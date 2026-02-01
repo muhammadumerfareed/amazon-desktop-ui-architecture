@@ -1,0 +1,484 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3e6e6;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(amazon_logo.png);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+
+.boder {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.nav-address {
+  margin: 5px 2px 5px 0px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  padding-right: 9px;
+}
+
+.add1 {
+  color: #cccccc;
+  margin-left: 15px;
+  margin-right: 2px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.add2 {
+  margin-left: 3px;
+  font-size: 14px;
+  margin-right: 2px;
+  font-weight: 700;
+}
+
+/* designing search  */
+.search {
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 4px;
+}
+
+.searchselect {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.searchAmazon {
+  width: 100%;
+  height: 38px;
+  text-align: left;
+  text-indent: 3px;
+  border: none;
+  font-size: 1rem;
+}
+
+.serach-icon {
+  background-color: #febd68;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.serach-icon:hover {
+  cursor: pointer;
+}
+
+/* designing lang box */
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+}
+
+.englang {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-flag img {
+  width: 25px;
+  /* Keeps it tiny like Amazon */
+  height: auto;
+  /* Maintains the shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* designing sign up */
+.signin {
+  font-size: 12px;
+  display: flex;
+
+  align-items: center;
+}
+
+.signup {
+  width: 115px;
+
+  display: block;
+  justify-content: center;
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+/* designing pannel */
+
+.pannel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14px;
+}
+
+.pannel-all {
+  font-weight: 700;
+}
+
+.pannel-content p {
+  display: inline;
+  margin-left: 8px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.pannel-content {
+  width: 90%;
+}
+
+/* dseigning hero section  */
+
+.hero_section {
+  background-image: url(hero.jpg);
+  height: 250px;
+  background-size: cover;
+}
+
+.shop_section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: #fecfd7;
+
+  border-bottom-right-radius: 50% 25px;
+  border-bottom-left-radius: 50% 25px;
+}
+
+h2 {
+  font-size: 21px;
+  color: #0f1111;
+  margin-bottom: 5px;
+}
+
+.box {
+  padding: 20px;
+  width: 23%;
+  height: 350px;
+  background-color: white;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box_container {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 45%;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.box_container img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+.box_container p {
+  font-size: 12px;
+  /* Make text smaller like Amazon */
+  margin-top: 5px;
+  color: #0f1111;
+  background-color: white;
+}
+
+a {
+  font-size: 13px;
+  color: #007185;
+  text-decoration: none;
+}
+
+.grey {
+  background-color: gainsboro;
+}
+
+.product-scroll {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.product-scroll h2 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.product-list img {
+  height: 200px;
+  width: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.product-list img:hover {
+  transform: scale(1.005);
+}
+
+.product-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.product-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+/* designing the footer pannels  */
+.footer-pannel1 {
+  background-color: #37475a;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding: 16px 0px 16px 0px;
+  height: 50px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.footer-pannel1 a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.footerpannel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerpannel2 a {
+  display: block;
+  color: #dddddd;
+  font-size: 0.85rem;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.footerpannel2 ul {
+  margin-top: 25px;
+}
+
+.footerpannel2 a:hover {
+  text-decoration: underline;
+}
+
+.footerpannel3 {
+  background-color: #222f3d;
+  color: white;
+  border-top: 01px solid #55595c;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  padding: 20px;
+}
+
+.pannellogo {
+  background-image: url(amazon_logo\ \(1\).png);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+
+.sec-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.lang-container {
+  font-size: 13px;
+  display: flex;
+  height: 33px;
+  width: 137px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+  border: 1px solid #55595c;
+  color: #cccccc;
+  border-radius: 4px;
+}
+
+.currency-container {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #55595c;
+  border-radius: 4px;
+  height: 35px;
+  width: 165px;
+  padding: 5px;
+  font-size: 13px;
+  color: #cccccc;
+}
+
+.country-container {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1.5px solid #55595c;
+  border-radius: 4px;
+  height: 33px;
+  width: 139px;
+  padding: 5px;
+  font-size: 13px;
+  color: #cccccc;
+}
+
+.usa {
+  width: 18px;
+  height: 12px;
+}
+
+.pannel4 {
+  height: 80px;
+  width: 100%;
+  color: #dddddd;
+  text-align: center;
+  background-color: #131a22;
+  font-size: 0.75rem;
+}
+
+.pages {
+  padding-top: 25px;
+}
+
+.pages a {
+  padding-left: 8px;
+  font-size: 0.75rem;
+  color: #dddddd;
+}
+
+.privacy {
+  padding-top: 6px;
+}
+
+.pages a:hover {
+  text-align: underline;
+
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #131A22; /* Amazon Dark Blue */
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    /* Hide the actual website elements */
+    header, .hero_section, .shop_section, .product-scroll, footer {
+        display: none;
+    }
+
+    /* Show the message */
+    body::after {
+        content: "🚧 Desktop Version Only 🚧 \A \A This project is a Deep Dive into Desktop Layout Architecture. \A \A Please open this link on a Laptop or PC to view the pixel-perfect build.";
+        white-space: pre-wrap; 
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
