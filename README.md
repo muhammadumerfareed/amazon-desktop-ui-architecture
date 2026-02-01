@@ -4,8 +4,8 @@ A pixel-perfect implementation of the Amazon desktop interface, built to deconst
 
 🔗 **[Live Demo (Desktop Only)](https://muhammadumerfareed.github.io/amazon-desktop-ui-architecture/)**
 
-![Amazon Desktop Preview](<img width="1906" height="968" alt="image" src="https://github.com/user-attachments/assets/84e4f79a-9077-4521-ad5c-ad807f240f51" />
-)
+<img width="1907" height="884" alt="image" src="https://github.com/user-attachments/assets/448f2425-fa2c-481f-b550-406f5cb9ff84" />
+
 
 ## 🎯 Project Scope
 This project is a **Desktop-First Architecture Study**.
@@ -39,6 +39,7 @@ A structured multi-column layout focusing on semantic grouping and precise spaci
    ```bash
    git clone [[https://github.com/YOUR-USERNAME/amazon-desktop-ui-architecture.git](https://github.com/YOUR-USERNAME/amazon-desktop-ui-architecture.git)](https://github.com/muhammadumerfareed/amazon-desktop-ui-architecture.git)
    ```
-   Open ```index.html``` in your browser.
-   #⚖️ Disclaimer
+2. Open ```index.html``` in your browser.
+   
+##⚖️ Disclaimer
 **This project is a frontend implementation study for educational purposes. All logos, images, and branding assets are property of Amazon.com, Inc.**
