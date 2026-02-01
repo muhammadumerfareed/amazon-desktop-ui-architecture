@@ -41,5 +41,5 @@ A structured multi-column layout focusing on semantic grouping and precise spaci
    ```
 2. Open ```index.html``` in your browser.
    
-##⚖️ Disclaimer
+## ⚖️ Disclaimer
 **This project is a frontend implementation study for educational purposes. All logos, images, and branding assets are property of Amazon.com, Inc.**
